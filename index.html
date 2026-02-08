@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap First website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="back">
+    
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top px-5">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#"><img src="img/logo.jpeg" alt="" style="height:50px;"></a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links + search + cart -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <!-- Search form -->
+      <form class="d-flex me-auto w-25 my-2 my-lg-0">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+
+      <!-- Menu links -->
+      <ul class="navbar-nav flex-row gap-3 mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link text-white active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Services</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Book Online</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+      </ul>
+
+      <!-- Shopping cart -->
+      <div class="d-flex align-items-center ms-3 fs-4 text-white">
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+</header>
+<!-- ..... hero section start ........  -->
+<!-- Hero Section Start -->
+<section class="position-relative bg-light ">
+  <div class="container-fluid p-0">
+    <div class="position-relative">
+      <!-- Background Image -->
+      <img src="https://static.wixstatic.com/media/88aac0_151b51bfa40f42dca334d68c1a1ff1b6~mv2.png" 
+           alt="Pilates Hero" 
+           class="img-fluid w-100 vh-100 hero-img">
+
+      <!-- Text Overlay -->
+      <div class="position-absolute top-50 start-50 translate-middle text-center p-4 bg-white bg-opacity-75 rounded shadow"
+           style="max-width: 90%; width: 500px;">
+        <h1 class="mb-3 fs-2 fs-md-3 text-success">Discover the <br> Power of Pilates</h1>
+        <p class="mb-3 fs-6 fs-md-5 text-success">Welcome to our Pilates studio, where strength and flexibility come together. Join us for personalized sessions in a supportive environment.</p>
+        <a href="#" class="btn btn-success btn-lg">Join Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Hero Section End -->
+
+ 
+ <!-- Book Your Session Section Start -->
+<section class=" bg-light back ">
+  <div class="container p-0">
+    <h1 class="text-center text-success  py-5">Book Your Session</h1>
+    <div class="row justify-content-center g-4 mb-5" id="classesContainer">
+
+      </div>
+    </div>
+</section>
+<!-- Book Your Session Section End -->
+
+ <!-- third secion start ......About Our Pilates Studio.......  -->
+<section class="about-section">
+    <div class="container-fluid p-0 ">
+        <div class="row align-items-stretch gx-0">
+            <div class="col-12 col-md-6 ">
+                <img src="https://static.wixstatic.com/media/88aac0_c73d6adcd0484d13a10fd04d3a8bd801~mv2.jpg/v1/fill/w_490,h_931,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/88aac0_c73d6adcd0484d13a10fd04d3a8bd801~mv2.jpg" alt=""  class="about-img">
+            </div>
+            <div class="col-12 col-md-6 my-color text-success p-5 ">
+                <h1 class=" py-5 fs-1 lh-4">About Our <br> Pilates Studio</h1>
+                <div><h3 class="mt-4">Our Story</h3>
+                <p>At our Pilates studio, we are dedicated to enhancing your physical and mental well-being through personalized Pilates sessions.</p></div>
+                <div>
+                    <h3 class="mt-5">Our Mission</h3>
+                    <p>We strive to create a welcoming and inclusive space where individuals of all fitness levels can experience the transformative benefits of Pilates. Our certified instructors are committed to guiding you on your journey to improved health and vitality.</p>
+                </div>
+                <button class="bg-success text-white py-2 px-4  mt-auto">Learn More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- .................Why Us? section is started ..............  -->
+
+<section class="about-section text-success">
+    <div class="container-fluid container p-0">
+<div class="row ">
+    <div class="col-12 col-md-6 my-color text-success p-5 vh-100 ">
+        <h1>Client Testimonials</h1>
+        <p>In just a few sessions, you can also feel a remarkable difference in my posture and overall strength.</p>
+    </div>
+
+    <!-- .. first slide .....  -->
+    <div class="col-12 col-md-6 bg-light text-success p-5  ">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner pt-5 mt-5">
+    <div class="carousel-item active ">
+      <h1>" The Pilates classes have been instrumental in alleviating my back pain and improving my flexibility. "</h1>
+      <p class="pt-3">Emma</p>
+    </div>
+    <div class="carousel-item">
+      <h1>" The instructors here are not only knowledgeable but also incredibly supportive. "</h1>
+      <p class="p-3">Sophia</p>
+    </div>
+    <div class="carousel-item">
+      <h1>" I highly recommend this studio to anyone looking to enhance their fitness journey and well-being. "</h1>
+      <p class="pt-3">Liam</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+    <span class="visually-hidden  ">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+    </div>
+    <div class="col-12 col-md-6 text-white m-0  my-third-color bg-success p-5">
+        <h1 class="mt-5">Why Us?</h1>
+        <p class="mt-3">Our studio offers a holistic approach to health and <br> wellness, focusing on building strength, flexibility, <br> and mindfulness.</p>
+        <p>We prioritize personalized attention and tailor our <br> sessions to meet your specific needs and goals.</p>
+    </div>
+    <div class="col-12 col-md-6 p-5">
+        <div class="mb-5">
+            <hr>
+            <h5 class="pt-5">Individualized Training</h5>
+            <p class="pt-3 pb-5">Our individualized training programs are designed to help you achieve your fitness objectives effectively and safely, ensuring a rewarding Pilates experience.</p>
+            <hr>
+        </div>
+         <div class="mb-5">
+        
+            <h5 class="pt-5">Certified Professionals</h5>
+            <p class="pt-3 pb-5">Our certified instructors bring a wealth of knowledge and expertise to every session, ensuring you receive top-quality instruction and guidance.</p>
+            <hr>
+        </div>
+
+        <div class="mb-5">
+        
+            <h5 class="pt-5">Supportive Environment</h5>
+            <p class="pt-3 pb-5">Our studio fosters a supportive and encouraging environment where you can connect with like-minded individuals and embark on your fitness journey.</p>
+            <hr>
+        </div>
+    </div>
+
+</div>
+    </div>
+</section>
+
+
+
+<!-- ..............Get in Touch With Us part is started ............ -->
+<section class="about-section py-5  ">
+    <div class="container ">
+        <div class="row justify-content-center ">
+            <div class="col-12 col-md-6 ">
+                <img src="https://static.wixstatic.com/media/88aac0_5a2ebb6a0f914748a25188fe966ef2f1~mv2.jpg/v1/fill/w_490,h_665,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/88aac0_5a2ebb6a0f914748a25188fe966ef2f1~mv2.jpg" alt="">
+            </div>
+             <div class=" col-12 col-md-6 my-color p-4">
+                <h1 class="text-success mb-3">Get in Touch With Us</h1>
+                <form action="" class="text-success">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+              <label class="form-label ">First name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control border-0 border-bottom rounded-0 bg-transparent">
+            </div>
+
+            <div class="col-md-6 mb-3 ">
+              <label class="form-label ">Last name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control border-0 border-bottom rounded-0 bg-transparent">
+            </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label ">Email <span class="text-danger">*</span></label>
+              <input type="text" class="form-control border-0 border-bottom rounded-0 bg-transparent">
+                    </div>
+                     <div class="mb-3">
+                        <label class="form-label ">Phone <span class="text-danger">*</span></label>
+              <input type="text" class="form-control border-0 border-bottom rounded-0 bg-transparent">
+                    </div>
+                    <div class="mb-4">
+            <label class="form-label">Message</label>
+            <textarea rows="3" class="form-control border-0 border-bottom rounded-0 bg-transparent"></textarea>
+          </div>
+          <button class="btn btn-success px-5 py-2 ">Submit</button>
+                </form>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ...footer part start......   -->
+<!-- <footer class="py-5 text-success"> -->
+  <div class="container py-5 text-success">
+
+    <!-- ROW START -->
+    <div class="row">
+
+      <!-- LOGO -->
+      <div class="col-6 col-md-4 mb-4">
+        <img src="img/logo.jpeg" alt="" width="80">
+        <h3 class="mt-4">Kirty Singh Arya</h3>
+        <p>aryakrity2004@gmail.com</p>
+        <p><span class="text-danger">+91</span> 7055370178</p>
+       
+      </div>
+
+      <!-- ADDRESS -->
+      <div class="col-6 col-md-4 mb-4">
+        <p>123-456-7890</p>
+        <p>info@mysite.com</p>
+
+        <p class="mb-4">
+          500 Terry Francine St.<br>
+          San Francisco, CA 94158
+        </p>
+
+        <hr class="footer-hr">
+
+        <p class="mt-4 mb-1">Privacy Policy</p>
+        <p>Accessibility Statement</p>
+      </div>
+
+      <!-- FORM -->
+      <div class="col-12 col-md-4">
+        <h3>Connect With Us</h3>
+        <form>
+          <label class="form-label">Email <span class="text-danger">*</span></label>
+
+          <input
+            type="email" class="form-control border-0 border-bottom rounded-0 bg-transparent mb-3 my-input">
+
+          <div class="form-check mb-4">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">
+              Yes, subscribe me to your newsletter.*
+            </label>
+          </div>
+
+          <button class="btn btn-success w-100 py-2">Submit</button>
+        </form>
+      </div>
+
+    </div>
+    <!-- ROW END -->
+
+    <!-- FOOTER BOTTOM TEXT -->
+    <div class="text-start mt-5  ">
+      <small>© 2035 by L. Carter. Powered and secured by Wix</small>
+    </div>
+
+  </div>
+<!-- </footer> -->
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+</html>
